@@ -4,6 +4,8 @@
 
 Vitor Silva 
 
+![Texto Alternativo]((https://github.com/lHeroVS/Challenge---Decodificador/blob/main/Challenge%20-%20Decodificador/assets/eu.jpg)  
+
 ### Descrição
 
    Site simples que criptografa e descriptografa textos de acordo com o input do usuário. Utiliza-se a linguagem javascript para desenvolvimento das funções lógicas, html para a organização dos elementos visuais, e css para estilização.
