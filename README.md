@@ -2,7 +2,7 @@
 
 ## Autor 
 
-[Foto do autor](assets\eu.jpg)
+Vitor Silva 
 
 ### Descrição
 
