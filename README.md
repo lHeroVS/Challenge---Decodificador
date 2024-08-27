@@ -2,7 +2,7 @@
 
 ## Autor 
 
-Vitor Silva 
+**Vitor Silva**
 
 <img src= "https://github.com/lHeroVS/Challenge---Decodificador/blob/main/Challenge%20-%20Decodificador/assets/eu.jpg"  width="150" height="150">
 
