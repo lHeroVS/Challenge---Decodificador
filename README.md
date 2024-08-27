@@ -4,7 +4,7 @@
 
 Vitor Silva 
 
-![Texto Alternativo]((https://github.com/lHeroVS/Challenge---Decodificador/blob/main/Challenge%20-%20Decodificador/assets/eu.jpg)  
+![Texto Alternativo](https://github.com/lHeroVS/Challenge---Decodificador/blob/main/Challenge%20-%20Decodificador/assets/eu.jpg)  
 
 ### Descrição
 
