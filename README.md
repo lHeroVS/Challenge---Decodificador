@@ -1,5 +1,9 @@
 # Challenge---Decodificador
 
+## Autor 
+
+![Foto do autor](eu.jpg)
+
 ### Descrição
 
    Site simples que criptografa e descriptografa textos de acordo com o input do usuário. Utiliza-se a linguagem javascript para desenvolvimento das funções lógicas, html para a organização dos elementos visuais, e css para estilização.
@@ -23,4 +27,4 @@
    - "ober" por "o"
    - "ufat" por "u"
 
- - Copia do resultado : Ao criptografar ou descriptografar o texto, aparecera no campo de output o botão "copiar" que resgata o valor referente a descriptografia ou criptografia e guarda na área de transferencia para colagem. Pra isso se utiliza a API Clipboard.
+ - Copia do resultado : Ao criptografar ou descriptografar o texto, aparecerá no campo de output o botão "copiar" que resgata o valor referente a descriptografia ou criptografia e guarda na área de transferencia para colagem. Pra isso se utiliza a API Clipboard.
