@@ -2,7 +2,7 @@
 
 ## Autor 
 
-![Foto do autor](eu.jpg)
+![Foto do autor](assets\eu.jpg)
 
 ### Descrição
 
