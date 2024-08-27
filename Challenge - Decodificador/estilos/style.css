@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #f5f5fc;
+    font-family: "Inter", sans-serif;;
+}
+
+.campo__principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    padding: 2% 0 0 3%;
+}
+
+#header__img {
+    width: 31.09px;
+    height: 46px;
+}
+
+.campo__de__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6% 0 0 14%;
+}
+
+#input__do__usuario {
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #0a3871;
+    border: none;
+    background-color:#f5f5fc;
+}
+
+::placeholder {
+    color: #0a3871;
+}
+
+.campo__de__input__botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.campo__de__input__botoes__mensagem {
+    display: flex;
+    gap: 8px;
+    color: #495057;
+}
+
+#input__botoes__mensagem__p1 {
+    font-size: 12px;
+}
+
+.campo__de__input__botoes__botoes {
+    display: flex;
+    gap: 24px;
+}
+
+.campo__de__input__botoes__botao {
+    font-size: 16px;
+    width: 260px;
+    height: 48px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    border: solid #0a3871 1px;
+    cursor: pointer;
+}
+
+#botao__criptografar {
+    background-color: #0a3871;
+    color: white;
+}
+
+#botao__descriptografar {
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+.campo__de__output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    width: 350px;
+    text-align: center;
+    background-color: #ffff;
+    margin-right: 3%;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    border-radius: 32px;
+    box-shadow : 0px 4px 8px -8px black;
+}
+
+.campo__output__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#output__p1 {
+    font-size: 24px;
+    color: #343a40;
+}
+
+#output__p2 {
+    font-size: 16px;
+    color: #495057;
+}
+
+#output__img {
+    width: 336px;
+    height: 304px;
+    display: flex;
+}
+
+#campo__novo {
+    display: none;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#output__novoTexto {
+    color: #495057;
+    font-size: 24px;
+}
+
+#botao__copiar {
+    width: 260px;
+    height: 48px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    border: solid #0a3871 1px;
+    cursor: pointer;
+    font-size: 16px;
+    color:#0a3871;
+}
+
+#campo__novo.shown {
+    display: flex;
+    gap: 24px;
+}
+
+footer {
+    display: flex;
+    font-size: 12px;
+    color: #343a40;
+    padding: 1%;
+}

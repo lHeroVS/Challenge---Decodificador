@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <header>
+        <img id="header__img" src="./assets/logoalura.png">
+    </header>
+    <main class="campo__principal">
+        <section class="campo__de__input">
+            <textarea name="inputDoUsuario" id="input__do__usuario" cols="30" rows="10" placeholder= "Digite seu texto"></textarea>
+            <div class="campo__de__input__botoes">
+                <div class="campo__de__input__botoes__mensagem">
+                    <img src="./assets/alerta.png">
+                    <p id="input__botoes__mensagem__p1">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="campo__de__input__botoes__botoes">
+                    <button onclick="criptografar()" class="campo__de__input__botoes__botao" id="botao__criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="campo__de__input__botoes__botao" id="botao__descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="campo__de__output">
+
+            <section id="campo__inicial" class="campo__output__texto">
+            <img id="output__img" src="./assets/mensagemNãoEncontrada.png">
+
+                <p id="output__p1"> <b> Nenhuma mensagem encontrada </b></p>
+                <p id="output__p2">Digíte um texto que você deseja criptografar ou descriptografar</p>
+            </section>
+
+            <section id="campo__novo" class="campo__output__texto">
+                <p id="output__novoTexto"></p>
+                <button onclick="copiar()" id="botao__copiar"> Copiar </button>
+            </section>
+
+        </section>
+    </main>
+    <footer>
+        <p> <b> Feito por Vitor Silva com ajuda da alura. </b> </p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
