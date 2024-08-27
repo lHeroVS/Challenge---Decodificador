@@ -28,3 +28,11 @@ Vitor Silva
    - "ufat" por "u"
 
  - Copia do resultado : Ao criptografar ou descriptografar o texto, aparecerá no campo de output o botão "copiar" que resgata o valor referente a descriptografia ou criptografia e guarda na área de transferencia para colagem. Pra isso se utiliza a API Clipboard.
+
+
+### Relato sobre desenvolvimento do projeto
+
+Em geral não tive muitos momentos aonde fiquei travado, os poucos que eu tive, consegui sair com a ajuda do chatgpt e pesquisando sobre a documentação das linguagens, ou mesmo apenas me dando mais tempo pra pensar fora da caixa, sair do estado de foco para um estado relaxado. 
+
+Creio que por conta de ser algo que não foi desenvolvido nos outros projetos, o que mais tive dificuldade para implementar nesse site foi desenvolver o campo de output alternando entre o estado padrão e o novo ao clicar nos botões, não sabia exatamente como que eu colocaria dois outputs no mesmo lugar, pensava em pra mim parecia impossível, até que eu fui consultar o chat gpt e aprendi a usar o display none pra esconder o campo de output novo e mudar para display flex ao clicar em um dos botões e adicionar o display none ao campo de output inicial. 
+
